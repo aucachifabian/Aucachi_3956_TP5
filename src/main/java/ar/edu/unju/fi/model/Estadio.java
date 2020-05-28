@@ -1,7 +1,13 @@
 package ar.edu.unju.fi.model;
+import org.springframework.stereotype.Component;
 
 import java.time.LocalDate;
-
+/**
+ * class que representa al objeto estadio contiene nombre fecha de fundacion, ciudad, capacidad, direccion
+ * @author Aucachi Fabian
+ *
+ */
+@Component
 public class Estadio {
 	private String nombre;
 	 private LocalDate fechaFundacion;
@@ -9,11 +15,15 @@ public class Estadio {
 	 private int capacidad;
 	 private String dirección;
 	 
+	 /**
+	  * constructor por defecto
+	  */
 	 public Estadio() {
 		 
 	 }
 
 	/**
+	 * Constructor parametrizado
 	 * @param nombre
 	 * @param fechaFundacion
 	 * @param ciudad

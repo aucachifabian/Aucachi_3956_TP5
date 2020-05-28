@@ -2,6 +2,13 @@ package ar.edu.unju.fi.model;
 
 import java.time.LocalDate;
 
+import org.springframework.stereotype.Component;
+/**
+ * class que representa al objeto Usuario con id nombre apellido y demas datos.
+ * @author Aucachi Fabian
+ *
+ */
+@Component
 public class Usuario {
 	private long id;
 	private String nombre;

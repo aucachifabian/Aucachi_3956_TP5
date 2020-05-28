@@ -1,7 +1,14 @@
 package ar.edu.unju.fi.model;
 
 import java.time.LocalDate;
+import org.springframework.stereotype.Component;
 
+/**
+ * class que representa al objeto Resultado, que es una fila de la tabla.
+ * @author Aucachi Fabian
+ *
+ */
+@Component
 public class Resultado {
 LocalDate fecha;
 private Equipo equipo1;

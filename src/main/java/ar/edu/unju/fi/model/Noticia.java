@@ -1,7 +1,13 @@
 package ar.edu.unju.fi.model;
+import org.springframework.stereotype.Component;
 
 import java.time.LocalDate;
-
+/**
+ * class que representa al objeto Noticia contiene FECHA DE LA NOTICIA, TITULO Y UNA BREVE DESCRIPCION
+ * @author Aucachi Fabian
+ *
+ */
+@Component
 public class Noticia {
 private LocalDate fecha;
 private String titulo;
