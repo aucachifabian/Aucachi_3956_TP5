@@ -9,7 +9,11 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 import ar.edu.unju.fi.model.Usuario;
 import ar.edu.unju.fi.service.IUsuarioService;
-
+/**
+ * Desde aqui ejecutamos el proyecto Spring 
+ * @author Aucachi Fabian
+ *
+ */
 @SpringBootApplication
 public class Aucachi3956Tp5Application implements CommandLineRunner{  //esta implementacion me agrego el void run
    @Autowired
@@ -36,7 +40,6 @@ public class Aucachi3956Tp5Application implements CommandLineRunner{  //esta imp
 		usuario.setPassword("12345678");
 		
 		usuarioService.guardar();
-		usuarioService.Mostrar();
 	}
 
 }

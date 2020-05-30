@@ -6,7 +6,10 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 import ar.edu.unju.fi.Aucachi3956Tp5Application;
 import ar.edu.unju.fi.model.Equipo;
-
+/**
+ * @author Aucachi Fabian
+ *  implementacion. se escriben las acciones que realizaran los metodos de la interfaz asociada.
+ */
 @Repository("EquipoImp")
 public class EquipoImp implements IEquipo {
 	@Autowired

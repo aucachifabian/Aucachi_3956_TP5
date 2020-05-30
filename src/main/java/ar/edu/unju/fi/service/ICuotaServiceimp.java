@@ -10,7 +10,8 @@ import ar.edu.unju.fi.model.Cuota;
 import ar.edu.unju.fi.repository.ICuota;
 
 /**
- * @author Windows
+ * implementacion, este llamara las interfaz del repositorio de cada objeto. para trabajar en capaz
+ * @author Aucachi Fabian
  *
  */
 @Repository

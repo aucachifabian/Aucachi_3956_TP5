@@ -10,7 +10,8 @@ import ar.edu.unju.fi.model.Noticia;
 import ar.edu.unju.fi.repository.INoticia;
 
 /**
- * @author Windows
+ * implementacion, este llamara las interfaz del repositorio de cada objeto. para trabajar en capaz
+ * @author Aucachi Fabian
  *
  */
 @Repository

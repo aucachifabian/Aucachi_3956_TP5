@@ -1,4 +1,5 @@
 package ar.edu.unju.fi.model;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
 import java.time.LocalDate;
@@ -32,6 +33,7 @@ public class Cuota {
 	/**
 	 * Variable miembro para reresentar el nombr de usuario
 	 */
+	@Autowired
 	private Usuario usuario;
 	
 	/**

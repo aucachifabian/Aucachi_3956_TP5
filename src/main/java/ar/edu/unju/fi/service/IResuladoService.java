@@ -6,7 +6,8 @@ package ar.edu.unju.fi.service;
 import ar.edu.unju.fi.model.Resultado;
 
 /**
- * @author Windows
+ * interface del servicio especiifica los servicios que podremos realizar
+ * @author Aucachi fabian
  *
  */
 public interface IResuladoService {

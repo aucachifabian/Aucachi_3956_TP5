@@ -12,8 +12,8 @@ import ar.edu.unju.fi.Aucachi3956Tp5Application;
 import ar.edu.unju.fi.model.Resultado;
 
 /**
- * @author Windows
- *
+ * @author Aucachi Fabian
+ *  implementacion. se escriben las acciones que realizaran los metodos de la interfaz asociada.
  */
 @Repository
 public class ResultadoImp implements IResultado {

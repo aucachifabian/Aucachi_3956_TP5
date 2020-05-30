@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html xmlns:th ="http://www.thymeleaf.org">
+<head>
+    <meta charset="ISO-8859-1">
+    <title>AFA - t y c SPORT</title>
+    <link rel="stylesheet"  href="css/estilos.css">
+</head>
+<body>
+	<div id="contenedor">
+		<header>
+			<h1>Liga de fútbol Profesional</h1>
+		</header>
+
+
+		<nav>
+			<ul>
+				<li><a href="index.html">Home </a></li>
+				<li><a href="fixture.html">Fixture y resultados</a></li>
+				<li><a href="equipos.html">Equipos</a>
+			</ul>
+			<div id="Welcome">
+			<h4 th:text =" ' Bienvenido! ' + ${usuario} "></h4>
+            </div>
+		</nav>
+
+		<!-- 		SECCION DE NOTICIAS -->
+		<section>
+			<h1>Noticias</h1>
+			<!-- 		tarjeta1 -->
+			<div id="cajaNoticias">
+				<div class="tarjeta">
+					<img src="img\boca.jpg" />
+					<div class="descripcion">
+						<h5 class="fecha">20/02/2020</h5>
+						<p class="texto">¡Boca campeon del campeonato!.. Con un tevez en un gran nivel, boca gano de 
+						local ante Gimnasia de la Plata
+					.</p>
+					</div>
+					<a class="boton" href="#"> Ver mas </a>
+				</div>
+
+				<!-- 				tarjeta2 -->
+				<div class="tarjeta">
+					<img src="img\maxiMesa.jpg">
+					<div class="descripcion">
+						<h5 class="fecha">22/02/2020</h5>
+						<p class="texto">"Maxi Mesa podria sumar una importante suma de dinero al rojo".
+						Expreso el presidente Moyano ante la prensa  </p>
+					</div>
+					<a class="boton" href="#"> Ver mas </a>
+				</div>
+
+
+				<!-- 				//tarjeta3 -->
+				<div class="tarjeta">
+					<img src="img\Descenso.jpg" alt="..">
+					<div class="descripcion">
+						<h5 class="fecha">22/02/2020</h5>
+						<p class="texto">S.A.F, Enterate como quedo la tabla de descensos y la de ascensos, 5 equipos equipos 
+						podrian..</p>
+					</div>
+					<a class="boton" href="#"> Ver mas </a>
+				</div>
+				
+				<!-- 				//tarjeta4 -->
+				<div class="tarjeta">
+					<img src="img\bocaTitulo.jpg" alt="..">
+					<div class="descripcion">
+						<h5 class="fecha">20/02/2020</h5>
+						<p class="texto"> Boca Juniors: Boca siguio de festejo en el vestuario, mira todas las
+						 imagenes y videos del festejo de boca por la victoria ante...</p>
+					</div>
+					<a class="boton" href="#"> Ver mas </a>
+				</div>
+			</div>
+		</section>
+
+		<aside>
+			<h2>Auspiciantes</h2>
+			<video  width="200" height="80 " src="img\cheverolet.mp4" autoplay muted loop></video>
+			<img src="img\amazon.jpg" >
+			<video width="200" height="80" src="img\adidas.mp4" autoplay muted loop></video>
+				<img src="img\macro.jpg" >
+		</aside>
+
+		<footer>
+			<a href="https://www.facebook.com/fabian.aucachi"><img src="img\facebook.jpg"></a>
+			<a href="https://api.whatsapp.com/send?phone=+5493885101787&text=hola,%20vengo%20de%20la%20web.?"><img src="img\wap.jpg"></a>
+			<a href=»mailto:fabianamericojoel99@gmail.com»><img src="img\gmail.jpg" ></a>
+			<a href="https://www.google.com/maps/place/Plaza+San+Mart%C3%ADn/@-24.3760539,-65.1180475,15z/data=!4m2!3m1!1s0x0:0xd36ed125a640bc02?sa=X&ved=2ahUKEwjz9YHst6fpAhVeCrkGHRd4DRkQ_BIwCnoECBIQCA"><img src="img\ubic.jpg" ></a>
+			<h2>Avenida gral Savio - Perico Jujuy -
+				fabianamericojoel99@gmail.com</h2>
+		</footer>
+	</div>
+</body>
+</html>

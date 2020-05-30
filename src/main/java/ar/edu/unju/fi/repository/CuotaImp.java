@@ -12,8 +12,8 @@ import org.springframework.stereotype.Repository;
 import ar.edu.unju.fi.Aucachi3956Tp5Application;
 import ar.edu.unju.fi.model.Cuota;
 /**
- * @author Windows
- *
+ * @author Aucachi Fabian
+ *  implementacion. se escriben las acciones que realizaran los metodos de la interfaz asociada.
  */
 @Repository("CuotaImp")
 public class CuotaImp implements ICuota{

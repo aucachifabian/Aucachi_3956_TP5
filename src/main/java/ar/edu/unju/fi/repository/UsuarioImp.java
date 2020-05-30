@@ -5,6 +5,10 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 import ar.edu.unju.fi.Aucachi3956Tp5Application;
 import ar.edu.unju.fi.model.Usuario;
+/**
+ * @author Aucachi Fabian
+ *  implementacion. se escriben las acciones que realizaran los metodos de la interfaz asociada.
+ */
 @Repository("UsuarioImp")
 public class UsuarioImp implements IUsuario {
 @Autowired
